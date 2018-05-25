@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Books</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" href="images/icons/favicon.png" />
+    <link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="fonts/themify/themify-icons.css">
+    <link rel="stylesheet" type="text/css" href="fonts/Linearicons-Free-v1.0.0/icon-font.min.css">
+    <link rel="stylesheet" type="text/css" href="fonts/elegant-font/html-css/style.css">
+    <link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+    <link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
+    <link rel="stylesheet" type="text/css" href="vendor/animsition/css/animsition.min.css">
+    <link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
+    <link rel="stylesheet" type="text/css" href="vendor/slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="css/util.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+
+<body class="animsition">
+
+    <!-- Header -->
+    <header class="header1">
+        <!-- Header desktop -->
+        <div class="container-menu-header p-t-12 p-b-13">
+            <div class="wrap_header">
+                <!-- Logo -->
+                <a href="index.html" class="logo">
+					<img src="images/icons/logo.png" alt="IMG-LOGO">
+				</a>
+
+                <!-- Menu -->
+                <div class="wrap_menu">
+                    <nav class="menu">
+                        <ul class="main_menu">
+                            <li>
+                                <a href="index.html">Home</a>
+                            </li>
+                            <li>
+                                <a href="books.html">My Books</a>
+                            </li>
+                            <li>
+                                <a href="browse.html">Browse</a>
+                            </li>
+                            <li>
+                                <a href="community.html">Community</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="pos-relative bo11 of-hidden m-l-150">
+                    <input class="s-text7 size16 p-l-23 p-r-50" type="text" name="search-product" placeholder="Search">
+
+                    <button class="flex-c-m size5 ab-r-m color1 color0-hov trans-0-4">
+                        <i class="fs-13 fa fa-search" aria-hidden="true"></i>
+                    </button>
+                </div>
+                <!-- Header Icon -->
+                <div class="header-icons">
+                    <a href="login.html" class="header-wrapicon1 dis-block color7">
+						<i class="header-icon1 fa fa-user fa-2x hov2"></i>
+					</a>
+
+                    <span class="linedivide1"></span>
+
+                    <a href="register.html" class="header-wrapicon1 dis-block color7">
+						<i class="header-icon1 fa fa-user-plus fa-2x hov2"></i>
+					</a>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- Header Mobile -->
+        <div class="wrap_header_mobile bo1">
+            <!-- Logo moblie -->
+            <a href="index.html" class="logo-mobile">
+				<img src="images/icons/logo.png" alt="IMG-LOGO">
+			</a>
+
+            <!-- Button show menu -->
+            <div class="btn-show-menu">
+                <!-- Header Icon mobile -->
+                <div class="header-icons-mobile">
+                    <a href="login.html" class="header-wrapicon1 dis-block color7">
+						<i class="header-icon1 fa fa-user fa-2x hov2"></i>
+					</a>
+
+                    <span class="linedivide2"></span>
+
+                    <a href="register.html" class="header-wrapicon1 dis-block color7 ">
+						<i class="header-icon1 fa fa-user-plus fa-2x hov2"></i>
+					</a>
+                </div>
+
+                <div class="btn-show-menu-mobile hamburger hamburger--squeeze">
+                    <span class="hamburger-box">
+						<span class="hamburger-inner"></span>
+                    </span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Menu Mobile -->
+        <div class="wrap-side-menu">
+            <nav class="side-menu">
+                <ul class="main-menu">
+                    <li class="item-menu-mobile">
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li class="item-menu-mobile color5">
+                        <a href="books.html">My Books</a>
+                    </li>
+                    <li class="item-menu-mobile">
+                        <a href="browse.html">Browse</a>
+                    </li>
+                    <li class="item-menu-mobile">
+                        <a href="community.html">Community</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Cart -->
+    <section class="cart bgwhite p-t-70 p-b-100">
+        <div class="container">
+            <!-- Search and Results -->
+            <div class="m-l-50 m-r-50">
+                <div class="flex-sb-m flex-w p-b-35">
+                    <div class="flex-w">
+                        <span class="m-text26 text-bold p-t-5 p-b-5 pl-4">
+                            My Books
+                        </span>
+                    </div>
+                    <div class="pos-relative bo11 of-hidden">
+                        <input class="s-text7 size16 p-l-23 p-r-50" type="text" name="search-product" placeholder="Find a book">
+
+                        <button class="flex-c-m size5 ab-r-m color1 color0-hov trans-0-4">
+                            <i class="fs-13 fa fa-search" aria-hidden="true"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!-- Books -->
+            <div class="container-table-cart pos-relative effect2">
+                <div class="wrap-table-shopping-cart bgwhite bo1">
+                    <table class="table table-stripped">
+                        <tr class="thead-light ">
+                            <th scope="col" class="t-center">Cover</th>
+                            <th scope="col" class="t-center">Title</th>
+                            <th scope="col" class="t-center">Author</th>
+                            <th scope="col" class="t-center">Rating</th>
+                            <th scope="col" class="t-center">Date</th>
+                            <th scope="col" class="t-center">Actions</th>
+                        </tr>
+
+                        <tr>
+                            <td scope="row" class="t-center">
+                                <div class="cart-img-product b-rad-4 o-f-hidden">
+                                    <img src="images/item-01.jpg" alt="IMG-PRODUCT">
+                                </div>
+                            </td>
+                            <td scope="row" class="t-center">True Love</td>
+                            <td scope="row" class="t-center">Durjoy Dutta</td>
+                            <td scope="row" class="t-center">
+                                <span class="fa fa-star checked pl-1"></span>
+                                <span class="fa fa-star checked pl-1"></span>
+                                <span class="fa fa-star checked pl-1"></span>
+                                <span class="fa fa-star unchecked pl-1"></span>
+                                <span class="fa fa-star unchecked pl-1"></span>
+                            </td>
+                            <td scope="row" class="t-center">26 March, 2016.</td>
+                            <td scope="row" class="t-center">
+                                <div class="button-list">
+                                    <a type="button" class="btn btn-icon btn-light m-1" data-toggle="tooltip" title="View" href="#"><i class="fa fa-eye"></i></a>
+                                    <a type="button" class="btn btn-icon btn-success m-1" data-toggle="tooltip" title="Read" href="#"><i class="fa fa-book"></i></a>
+                                    <a type="button" class="btn btn-icon btn-warning m-1" data-toggle="tooltip" title="Edit" href="#"><i class="fa fa-pencil"></i></a>
+                                    <a type="button" class="btn btn-icon btn-danger m-1" data-toggle="tooltip" title="Remove" href="#"><i class="fa fa-trash"></i></a>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td scope="row" class="t-center">
+                                <div class="cart-img-product b-rad-4 o-f-hidden">
+                                    <img src="images/item-01.jpg" alt="IMG-PRODUCT">
+                                </div>
+                            </td>
+                            <td scope="row" class="t-center">True Love</td>
+                            <td scope="row" class="t-center">Durjoy Dutta</td>
+                            <td scope="row" class="t-center">
+                                <span class="fa fa-star checked pl-1"></span>
+                                <span class="fa fa-star checked pl-1"></span>
+                                <span class="fa fa-star checked pl-1"></span>
+                                <span class="fa fa-star unchecked pl-1"></span>
+                                <span class="fa fa-star unchecked pl-1"></span>
+                            </td>
+                            <td scope="row" class="t-center">26 March, 2016.</td>
+                            <td scope="row" class="t-center">
+                                <div class="button-list">
+                                    <a type="button" class="btn btn-icon btn-light m-1" data-toggle="tooltip" title="View" href="#"><i class="fa fa-eye"></i></a>
+                                    <a type="button" class="btn btn-icon btn-success m-1" data-toggle="tooltip" title="Read" href="#"><i class="fa fa-book"></i></a>
+                                    <a type="button" class="btn btn-icon btn-warning m-1" data-toggle="tooltip" title="Edit" href="#"><i class="fa fa-pencil"></i></a>
+                                    <a type="button" class="btn btn-icon btn-danger m-1" data-toggle="tooltip" title="Remove" href="#"><i class="fa fa-trash"></i></a>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td scope="row" class="t-center">
+                                <div class="cart-img-product b-rad-4 o-f-hidden">
+                                    <img src="images/item-01.jpg" alt="IMG-PRODUCT">
+                                </div>
+                            </td>
+                            <td scope="row" class="t-center">True Love</td>
+                            <td scope="row" class="t-center">Durjoy Dutta</td>
+                            <td scope="row" class="t-center">
+                                <span class="fa fa-star checked pl-1"></span>
+                                <span class="fa fa-star checked pl-1"></span>
+                                <span class="fa fa-star checked pl-1"></span>
+                                <span class="fa fa-star unchecked pl-1"></span>
+                                <span class="fa fa-star unchecked pl-1"></span>
+                            </td>
+                            <td scope="row" class="t-center">26 March, 2016.</td>
+                            <td scope="row" class="t-center">
+                                <div class="button-list">
+                                    <a type="button" class="btn btn-icon btn-light m-1" data-toggle="tooltip" title="View" href="#"><i class="fa fa-eye"></i></a>
+                                    <a type="button" class="btn btn-icon btn-success m-1" data-toggle="tooltip" title="Read" href="#"><i class="fa fa-book"></i></a>
+                                    <a type="button" class="btn btn-icon btn-warning m-1" data-toggle="tooltip" title="Edit" href="#"><i class="fa fa-pencil"></i></a>
+                                    <a type="button" class="btn btn-icon btn-danger m-1" data-toggle="tooltip" title="Remove" href="#"><i class="fa fa-trash"></i></a>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td scope="row" class="t-center">
+                                <div class="cart-img-product b-rad-4 o-f-hidden">
+                                    <img src="images/item-01.jpg" alt="IMG-PRODUCT">
+                                </div>
+                            </td>
+                            <td scope="row" class="t-center">True Love</td>
+                            <td scope="row" class="t-center">Durjoy Dutta</td>
+                            <td scope="row" class="t-center">
+                                <span class="fa fa-star checked pl-1"></span>
+                                <span class="fa fa-star checked pl-1"></span>
+                                <span class="fa fa-star checked pl-1"></span>
+                                <span class="fa fa-star unchecked pl-1"></span>
+                                <span class="fa fa-star unchecked pl-1"></span>
+                            </td>
+                            <td scope="row" class="t-center">26 March, 2016.</td>
+                            <td scope="row" class="t-center">
+                                <div class="button-list">
+                                    <a type="button" class="btn btn-icon btn-light m-1" data-toggle="tooltip" title="View" href="#"><i class="fa fa-eye"></i></a>
+                                    <a type="button" class="btn btn-icon btn-success m-1" data-toggle="tooltip" title="Read" href="#"><i class="fa fa-book"></i></a>
+                                    <a type="button" class="btn btn-icon btn-warning m-1" data-toggle="tooltip" title="Edit" href="#"><i class="fa fa-pencil"></i></a>
+                                    <a type="button" class="btn btn-icon btn-danger m-1" data-toggle="tooltip" title="Remove" href="#"><i class="fa fa-trash"></i></a>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td scope="row" class="t-center">
+                                <div class="cart-img-product b-rad-4 o-f-hidden">
+                                    <img src="images/item-01.jpg" alt="IMG-PRODUCT">
+                                </div>
+                            </td>
+                            <td scope="row" class="t-center">True Love</td>
+                            <td scope="row" class="t-center">Durjoy Dutta</td>
+                            <td scope="row" class="t-center">
+                                <span class="fa fa-star checked pl-1"></span>
+                                <span class="fa fa-star checked pl-1"></span>
+                                <span class="fa fa-star checked pl-1"></span>
+                                <span class="fa fa-star unchecked pl-1"></span>
+                                <span class="fa fa-star unchecked pl-1"></span>
+                            </td>
+                            <td scope="row" class="t-center">26 March, 2016.</td>
+                            <td scope="row" class="t-center">
+                                <div class="button-list">
+                                    <a type="button" class="btn btn-icon btn-light m-1" data-toggle="tooltip" title="View" href="#"><i class="fa fa-eye"></i></a>
+                                    <a type="button" class="btn btn-icon btn-success m-1" data-toggle="tooltip" title="Read" href="#"><i class="fa fa-book"></i></a>
+                                    <a type="button" class="btn btn-icon btn-warning m-1" data-toggle="tooltip" title="Edit" href="#"><i class="fa fa-pencil"></i></a>
+                                    <a type="button" class="btn btn-icon btn-danger m-1" data-toggle="tooltip" title="Remove" href="#"><i class="fa fa-trash"></i></a>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bgtheme p-t-45 p-b-43 p-l-45 p-r-45">
+        <div class="t-center p-l-15 p-r-15">
+            <div class="t-center s-text8 p-t-20">
+                Contact Us at <a href="contact.html">admin@bibliophile.com</a>
+            </div>
+            <div class="t-center s-text8 p-t-20">
+                Copyright © 2018 All rights reserved. | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by Animesh.
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to top -->
+    <div class="btn-back-to-top bg0-hov" id="myBtn">
+        <span class="symbol-btn-back-to-top">
+			<i class="fa fa-angle-double-up" aria-hidden="true"></i>
+		</span>
+    </div>
+
+    <!-- Container Selection -->
+    <div id="dropDownSelect1"></div>
+    <div id="dropDownSelect2"></div>
+
+
+
+    <script type="text/javascript" src="vendor/jquery/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="vendor/animsition/js/animsition.min.js"></script>
+    <script type="text/javascript" src="vendor/bootstrap/js/popper.js"></script>
+    <script type="text/javascript" src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="vendor/select2/select2.min.js"></script>
+    <script type="text/javascript">
+        $(".selection-1").select2({
+            minimumResultsForSearch: 20,
+            dropdownParent: $('#dropDownSelect1')
+        });
+
+        $(".selection-2").select2({
+            minimumResultsForSearch: 20,
+            dropdownParent: $('#dropDownSelect2')
+        });
+    </script>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
